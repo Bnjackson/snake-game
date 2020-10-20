@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header-container {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.gameCanvas {
+    border: 1px black solid;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -300px;
+    background-color: black;
 }
